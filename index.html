@@ -36,10 +36,25 @@
   </section>
 
   <section id="contacts">
-    <h2>Контакты</h2>
-    <p>Почта: <a href="mailto:komaruks@mail.ru">komaruks@mail.ru</a></p>
-    <p><a href="mailto:komaruks@mail.ru">Связаться со мной</a></p>
-  </section>
+  <h2>Контакты</h2>
+  <p>Почта: <a href="mailto:komaruks@mail.ru">komaruks@mail.ru</a></p>
+
+  <form action="https://formspree.io/f/xwpldnjr" method="POST">
+    <label>Имя:<br>
+      <input type="text" name="name" required>
+    </label><br><br>
+
+    <label>Email:<br>
+      <input type="email" name="email" required>
+    </label><br><br>
+
+    <label>Сообщение:<br>
+      <textarea name="message" rows="4" required></textarea>
+    </label><br><br>
+
+    <button type="submit">Отправить</button>
+  </form>
+</section>
 
   <footer>
     <p>© 2025 Сергей. Все права защищены.</p>
