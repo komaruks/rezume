@@ -16,3 +16,9 @@ toggleButton.addEventListener('click', () => {
     localStorage.setItem('theme', 'light');
   }
 });
+const menuToggle = document.getElementById('menu-toggle');
+const nav = document.getElementById('nav');
+
+menuToggle.addEventListener('click', () => {
+  nav.querySelector('ul').classList.toggle('show');
+});
