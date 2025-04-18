@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сергей — мой сайт</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background: #e75480;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px;
+      border-bottom: 1px solid #ccc;
+      background-color: #f9f9f9;
+      transition: background-color 0.3s;
+    }
+    section:hover {
+      background-color: #f1f1f1;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e75480;
+      color: white;
+    }
+    img {
+      max-width: 200px;
+      border-radius: 10px;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#skills">Навыки</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+
+  <section id="about">
+    <h2>Обо мне</h2>
+   <img src="sergey.jpg" alt="Сергей">
+    <p>Привет! Я Сергей. Учусь создавать сайты и развиваюсь в веб-разработке.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Навыки</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Чуть-чуть JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="contacts">
+    <h2>Контакты</h2>
+    <p>Почта: <a href="mailto:komaruks@mail.ru">komaruks@mail.ru</a></p>
+    <a href="resume.pdf" download>Скачать резюме</a>
+  </section>
+
+  <footer>
+    © 2025 Сергей. Все права защищены.
+  </footer>
+
+</body>
+</html>
