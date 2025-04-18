@@ -50,3 +50,18 @@ a.button {
 a.button:hover {
   background-color: #0056b3;
 }
+a.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+  background-color: #0056b3;
+}
