@@ -112,3 +112,33 @@ form button {
 form button:hover {
   background-color: #0056b3;
 }
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #e75480;
+    padding: 10px 0;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    text-align: right;
+    background-color: #e75480;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
